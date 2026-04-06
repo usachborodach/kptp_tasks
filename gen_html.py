@@ -127,7 +127,7 @@ def render_html(tasks, current_time):
 <div class="container">
     <div class="header">
         <h1>📋 Задачи КПТП Дубровка (поле)</h1>
-        <div class="update-date">Дата актуализации: {{ current_time }}</div>
+        <div class="update-date">Актуализировано: {{ current_time }}</div>
     </div>
 
     <div class="tasks-list">
