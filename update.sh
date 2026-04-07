@@ -5,6 +5,8 @@ git pull
 
 nano /home/user/repos/kptp_tasks/tasks.yml
 
+python3 gen_html.py
+
 git add .
 
 if git commit; then
