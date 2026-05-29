@@ -23,7 +23,7 @@ def render_html(tasks, current_time):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Задачи КПТП Дубровка (поле)</title>
+    <title>Задачи на объекте КПТП Дубровка</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <style>
         * {
@@ -127,7 +127,7 @@ def render_html(tasks, current_time):
 <body>
 <div class="container">
     <div class="header">
-        <h1>📋 Задачи КПТП Дубровка (поле)</h1>
+        <h1>📋 Задачи на объекте КПТП Дубровка</h1>
         <div class="update-date">Актуализировано: {{ current_time }}</div>
     </div>
 
